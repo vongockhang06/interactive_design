@@ -1,59 +1,59 @@
-# Web AR Game Project Proposal: Flying Cow Ranch
+# 飛牛牧場 Web AR 遊戲專案企劃書
 
-## 1. Mục tiêu (Objective)
-* **Chủ đề:** [棲地環境] - Sự khác biệt trong hành vi của động vật sống ở rừng nhiều tầng và khu vực đất trống.
-
----
-
-## 2. Vấn đề & Nỗi đau (Hook / Problem Analysis)
-* **Quy mô trang trại lớn:** 飛牛牧場 quá rộng, khiến khách du lịch (đặc biệt là trẻ em và người già) gặp khó khăn trong việc di chuyển tới mọi khu vực.
-* **Sự tập trung cục bộ của khách tham quan:** 
-  * Khách hàng chủ yếu tập trung ở khu vực cho dê ăn và khu xem vắt sữa bò do có các hoạt động tương tác trực tiếp, mới lạ và dễ thu hút trẻ em.
-  * Ngược lại, khu sinh thái bươm bướm và các khu vực khác thiếu các hoạt động hấp dẫn; bươm bướm có kích thước nhỏ, bay liên tục nên khó quan sát rõ ràng hoặc nhận biết sự khác biệt giữa các loài.
-  * Nhiều khu vực khác trong trang trại khách không thể tiếp cận hoặc không thể thấy động vật do tập tính sinh hoạt của chúng.
-* **Hạn chế về hệ thống chỉ dẫn:** Bản đồ hiện tại của 飛牛牧場 chưa đủ rõ ràng, dễ gây nhầm lẫn. Cần bổ sung các bảng chỉ dẫn nổi bật tại các ngã rẽ và đường nhỏ, đảm bảo ăn khớp với bản đồ tổng thể của trang trại.
+## 1. 目標 (Objective)
+- **主題：** [棲地環境] - 森林多層次與開闊地動物行為模式之差異。
 
 ---
 
-## 3. Giải pháp (Solution)
-
-### 3.1. Thiết kế Lộ trình & Checkpoint
-* **Hệ thống Checkpoint:** Biến mỗi địa điểm tham quan trong trang trại thành một checkpoint độc lập.
-* **Đa dạng hóa Route:** Thiết kế nhiều lộ trình (routes) khác nhau để khách du lịch tự do lựa chọn khám phá.
-* **QR Code điều hướng:** Đặt mã QR tại mỗi checkpoint để giới thiệu thông tin và gợi ý các hướng đi tiếp theo.
-
-### 3.2. Trạm dừng chân & Web AR tương tác trên đường đi
-* **Tăng cường phương tiện hỗ trợ & Trạm dừng (Check-points kiến thức):**
-  * Bổ sung phương tiện di chuyển (cân nhắc yếu tố bảo tồn sinh thái trang trại).
-  * Thiết lập các trạm dừng trung gian giữa các checkpoint chính (ví dụ: 5 trạm dừng trên đoạn đường từ khu dê ăn đến khu sinh thái bươm bướm).
-  * Mỗi trạm trang bị QR code, mini-game, Web AR để giới thiệu về các loài bươm bướm sắp tới hoặc kiến thức môi trường sống ngay tại chỗ.
-* **Duy trì động lực khám phá:** 
-  * Cung cấp thông tin trực quan về tổng số trạm và tiến độ hoàn thành hiện tại để kích thích tâm lý không muốn bỏ lỡ của người chơi (sau khi đi được hơn nửa chặng đường).
-  * Kết hợp nhân viên hướng dẫn tại chỗ (đặc biệt tại khu bươm bướm) để chỉ cách quan sát và cung cấp kiến thức chuyên sâu.
-
-### 3.3. Hệ thống Phần thưởng & Thử thách
-* Áp dụng cơ chế phần thưởng tăng dần theo khoảng cách và độ khó của điểm đến (càng xa, càng ít người tới, phần thưởng càng cao).
-* Phần thưởng bao gồm: Huy hiệu kỹ thuật số, nhân vật mới trong game, coupon ưu đãi.
-* Tích hợp các câu hỏi quiz và thử thách tương tác.
-
-### 3.4. Tính năng Quét AR cốt lõi
-* **Khám phá cấu trúc môi trường rừng:** Tìm hiểu nơi trú ẩn, nguồn thức ăn và điều kiện sống của các loài sinh vật phù hợp với khu vực.
-* **Tự tạo lập môi trường sống:** Người dùng tự chọn các thông số về ánh sáng, thời gian, độ cao để mô phỏng môi trường, từ đó hệ thống hiển thị loài động vật tương ứng phù hợp.
-* **Thử thách ghép nối môi trường:** Người chơi nhận thẻ thông tin sinh vật, quan sát các môi trường mô phỏng và lựa chọn môi trường thích hợp nhất (có giải thích chi tiết kể cả khi trả lời sai).
-
-### 3.5. Định hướng Phát triển Tương lai (Future Expansion)
-* **Chế độ quan sát nâng cao:** Thêm chế độ sáng/tối cho động vật hoạt động về đêm/sáng sớm, phân tầng sinh thái rừng, và chế độ theo mùa.
-* **Sự kiện theo chủ đề (Events):** Mô phỏng các tình huống thực tế như sự thay đổi di cư của động vật khi con người ít xuất hiện (thời kỳ COVID-19) hoặc nơi trú ẩn của động vật khi có bão lớn. Mỗi sự kiện kéo dài từ 1 tuần đến nửa tháng.
+## 2. 問題與痛點 (Hook / Problem Analysis)
+- **園區規模過大：** 飛牛牧場過大，使觀光客（特別是兒童與老人）難以移動至所有區域。
+- **觀光客高度集中：** 
+  - 遊客主要集中在餵食區與擠牛奶區，因為這些地方有直觀、新穎且易吸引兒童的互動活動。
+  - 相反地，蝴蝶生態區與其他區域缺乏吸引人的活動；蝴蝶體型小、持續飛舞，導致難以清楚觀察或辨識不同物種間的差異。
+  - 牧場中的許多其他區域，遊客無法到達，或是即使到達也因動物的生活習性而無法看見。
+- **指標系統限制：** 飛牛牧場現有的地圖不夠清晰，容易造成混淆。需要在岔路與小徑處增設顯眼的指標，並確保與牧場的整體地圖相符。
 
 ---
 
-## 4. Giá trị mang lại (Value)
-* Nâng cao kiến thức cho du khách về sinh vật và môi trường sống tự nhiên của chúng.
-* Không đòi hỏi hệ thống AI nhận diện phức tạp hay bản đồ định vị quá rườm rà; chỉ cần các mô hình 3D sinh vật và địa điểm. Có thể tận dụng dữ liệu và hình ảnh từ cộng đồng iNaturalist để hỗ trợ quá trình xây dựng mô hình.
-* Thêm hoạt động phong phú cho trang trại, góp phần phân bổ lại lượng khách du lịch đều hơn đến các khu vực ít người qua lại.
+## 3. 解決方案 (Solution)
+
+### 3.1. 路線設計與檢查點 (Checkpoint)
+- **檢查點系統：** 將牧場內的每個景點視為一個獨立的檢查點。
+- **多元路線設計：** 設計多條不同的路線，供遊客自由選擇探索。
+- **QR Code 導航：** 在每個檢查點設置 QR Code，以介紹資訊並建議接下來的方向。
+
+### 3.2. 途中休息站與 Web AR 互動
+- **增強交通輔助與中途站（知識檢查點）：**
+  - 補充交通工具（考量牧場生態保育因素）。
+  - 在主要檢查點之間設立中途休息站（例如：從餵食區到蝴蝶生態區的路上設置 5 個站點）。
+  - 每個站點配備 QR Code、小遊戲、Web AR，以即時介紹即將到達的蝴蝶種類或當地環境知識。
+- **維持探索動力：** 
+  - 提供總站數與當前完成進度的直觀資訊，以激發玩家不想放棄的心態（走過半程後）。
+  - 結合現場導覽人員（特別是在蝴蝶區），指導觀察方法並提供專業知識。
+
+### 3.3. 獎勵與挑戰系統 (Rewards & Challenges)
+- 根據目的地遠近與難度套用遞增的獎勵機制（距離越遠、去的人越少，獎勵越高）。
+- 獎勵包含：數位徽章、遊戲新角色、優惠券。
+- 整合問答（Quiz）與互動挑戰。
+
+### 3.4. 核心 AR 掃描功能 (Core AR Scanning)
+- **探索森林環境結構：** 了解適合該區域生物的棲息地、食物來源與生活條件。
+- **自主建立棲息地：** 使用者自行選擇光照、時間、海拔高度參數來模擬環境，系統隨之顯示相應適合的動物。
+- **環境配對挑戰：** 玩家接收生物資訊卡，觀察模擬環境並選擇最適合的棲息地（即使答錯也會提供詳細解釋）。
+
+### 3.5. 未來發展方向 (Future Expansion)
+- **進階觀察模式：** 新增夜行性或清晨活動動物的明/暗模式、森林垂直分層、以及季節模式。
+- **主題活動 (Events)：** 模擬實際情境，例如人類較少時動物遷徙的變化（COVID-19 期間）或暴風雨來襲時動物的躲藏處。每個活動持續 1 週到半個月。
 
 ---
 
-## 5. Điểm yếu & Hạn chế (Weaknesses / Constraints)
-* **Yêu cầu nhân lực chuyên môn:** Cần thêm nhân lực có kiến thức sinh học để hướng dẫn trực tiếp du khách (đặc biệt là với bươm bướm). Với các loài động vật hoạt động về đêm/sáng sớm mà khách khó thấy thực tế, giải pháp AR sẽ bù đắp phần kiến thức này.
-* **Giới hạn phạm vi giải quyết:** Game chỉ đóng vai trò giảm rào cản thông tin và tạo động lực khám phá trong phạm vi khả thi, không thể hoàn toàn giải quyết triệt để vấn đề diện tích quá rộng lớn của trang trại.
+## 4. 帶來的價值 (Value)
+- 提升遊客對生物及其自然棲息地的知識。
+- 不需要複雜的 AI 辨識系統或繁瑣的地圖定位；只需要生物 3D 模型與地點。可以利用來自 iNaturalist 社群的資料與圖片來輔助建立模型。
+- 為牧場增添豐富的活動，有助於將觀光客更平均地分配至較少人造訪的區域。
+
+---
+
+## 5. 缺點與限制 (Weaknesses / Constraints)
+- **專業人力需求：** 需要具備生物學知識的人員來直接引導遊客（特別是針對蝴蝶）。對於遊客實際很難看見的夜間/清晨動物，AR 解決方案將能補足這部分知識。
+- **解決範圍有限：** 遊戲僅在可行範圍內扮演降低資訊門檻與創造探索動力的角色，無法完全徹底解決牧場範圍過大的根本問題。
